@@ -88,3 +88,61 @@ class CarSimulator {
   }
 }
 // FIN SESION 4 
+
+// INICIO SESION 5
+
+// CONSTRUCTORES EN JAVA 
+// Create a Main class
+public class Main {
+  int x;
+
+  // Create a class constructor for the Main class
+  public Main() {
+    x = 5;
+  }
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+// EJERCICIO 1 
+// Crear la clase Producto
+class Producto {
+  String nombre;
+  double precio;
+  int cantidad;
+
+  // Constructor vacío (por defecto)
+  public Producto() {
+    nombre = "Sin nombre";
+    precio = 0.0;
+    cantidad = 0;
+  }
+
+  // Constructor con parámetros
+  public Producto(String nombre, double precio, int cantidad) {
+    this.nombre = nombre;
+    this.precio = precio;
+    this.cantidad = cantidad;
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    // Usando el constructor vacío
+    Producto p1 = new Producto();
+    System.out.println("Producto 1:");
+    System.out.println(p1.nombre + " - " + p1.precio + " - " + p1.cantidad);
+    System.out.println(-------------------------------------------------------);
+
+    // Usando el constructor con parámetros
+    Producto p2 = new Producto("Iphone",1500000, 1);
+    System.out.println("\nProducto 2:");
+    System.out.println(p2.nombre + " - " + p2.precio + " - " + p2.cantidad);
+     System.out.println(-------------------------------------------------------);
+
+  }
+}
+//  FIN SESION 5 
+
