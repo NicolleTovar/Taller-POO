@@ -226,6 +226,84 @@ class Car extends Vehicle {
     System.out.println(myFastCar.brand + " " + myFastCar.modelName);
   }
 }
+// FIIIIIIIIN
+//SESION 13
+class Animal {
+  public void animalSound() {
+    System.out.println("EL ANIMAL HACE UN SONIDO");
+  }
+}
+
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("El cerdo hace: wee wee");
+  }
+}
+
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("El perro hace : bow wow");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();
+    Animal myPig = new Pig();
+    Animal myDog = new Dog();
+        
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+}
+//------------------------------------------------------------------------------
+class Animal {
+  public void animalSound() {
+    System.out.println("EL ANIMAL HACE UN SONIDO");
+  }
+}
+
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("El cerdo hace: wee wee");
+  }
+}
+
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("El perro hace : bow wow");
+  }
+}
+
+class Cat extends Animal {
+  public void animalSound() {
+    System.out.println("El gato hace : miau miau");
+  }
+}
+
+class Macaw extends Animal {
+  public void animalSound() {
+    System.out.println("La Guacamaya hace : quiere cacao");
+  }
+}
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();
+    Animal myPig = new Pig();
+    Animal myDog = new Dog();
+    Animal myCat = new Cat();
+    Animal myMacaw = new Macaw();
+        
+        
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+    myCat.animalSound();
+    myMacaw.animalSound();
+  }
+}
+
 
 
 
