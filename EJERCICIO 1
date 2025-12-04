@@ -1,12 +1,17 @@
 // INICIO SESION 4 
- Create a Main class public class Main {
-
- Create a fullThrottle() method public void fullThrottle() 
- { System.out.println("El coche va tan rapido como puede!"); }
-Create a speed() method and add a parameter public void speed(int velocidadMax) 
-{ System.out.println("La velocidad maxima es : " + velocidadMax + "km"); }
-Inside main, call the methods on the myCar object public static void main(String[] args) 
-{ Main miCoche = new Main(); 
-Create a myCar object miCoche.fullThrottle(); 
-Call the fullThrottle() method miCoche.speed(200);
+ Create a Main class
+public class Main {
+ Create a fullThrottle() method
+public void fullThrottle() { 
+System.out.println("El coche va tan rapido como puede!"); 
+}
+//Create a speed() method and add a parameter 
+public void speed(int velocidadMax) { 
+System.out.println("La velocidad maxima es : " + velocidadMax + "km"); }
+Inside main, call the methods on the myCar object
+public static void main(String[] args) { 
+Main miCoche = new Main();  
+miCoche.fullThrottle(); 
+method miCoche.speed(200);
 Call the speed() method
+}}
